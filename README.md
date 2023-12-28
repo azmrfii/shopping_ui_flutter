@@ -1,4 +1,4 @@
-# shopping_ui
+# Shopping UI (Flutter)
 
 A new Flutter project.
 
