@@ -10,11 +10,11 @@ void main() {
   ]);
 }
 
-Widget mainview = const WelcomeView();
+// Widget mainview = const WelcomeView();
 // Widget mainview = const RegisterView();
 // Widget mainview = const HomeScreenView();
 // Widget mainview = const DetailProductView();
-// Widget mainview = const CheckoutScreenView();
+Widget mainview = const CheckoutScreenView();
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

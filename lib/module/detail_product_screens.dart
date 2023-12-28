@@ -48,17 +48,17 @@ class _DetailProductViewState extends State<DetailProductView> {
           size: 24.0,
           color: Colors.black,
         ),
-        actions: [
-          const Icon(
+        actions: const [
+          Icon(
             Icons.message_outlined,
             size: 24.0,
             color: Colors.black,
           ),
-          const SizedBox(
+          SizedBox(
             width: 23.0,
           ),
           Stack(
-            children: const [
+            children: [
               Align(
                 alignment: Alignment.center,
                 child: Icon(
@@ -81,11 +81,11 @@ class _DetailProductViewState extends State<DetailProductView> {
               ),
             ],
           ),
-          const SizedBox(
+          SizedBox(
             width: 23.0,
           ),
           Stack(
-            children: const [
+            children: [
               Align(
                 alignment: Alignment.center,
                 child: Icon(
@@ -108,7 +108,7 @@ class _DetailProductViewState extends State<DetailProductView> {
               ),
             ],
           ),
-          const SizedBox(
+          SizedBox(
             width: 23.0,
           ),
         ],
@@ -343,6 +343,7 @@ class _DetailProductViewState extends State<DetailProductView> {
                     ],
                   ),
                 ),
+                // ignore: avoid_unnecessary_containers
                 Container(
                   child: Column(
                     children: [
@@ -363,6 +364,7 @@ class _DetailProductViewState extends State<DetailProductView> {
                               const SizedBox(
                                 width: 13.0,
                               ),
+                              // ignore: avoid_unnecessary_containers
                               Container(
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -376,8 +378,8 @@ class _DetailProductViewState extends State<DetailProductView> {
                                     const SizedBox(
                                       height: 8.0,
                                     ),
-                                    Row(
-                                      children: const [
+                                    const Row(
+                                      children: [
                                         Icon(
                                           Icons.star,
                                           size: 14.0,
